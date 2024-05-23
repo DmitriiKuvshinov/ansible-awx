@@ -1,6 +1,6 @@
 ---
 - name: Main
-  hosts: all
+  hosts: localhost
   become: no
 
   tasks:
