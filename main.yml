@@ -1,0 +1,10 @@
+---
+- name: Main
+  hosts: all
+  become: no
+
+  tasks:
+    - name: debug
+      debug:
+        msg: "Hello world!"
+...
